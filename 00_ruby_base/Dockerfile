@@ -26,6 +26,7 @@ RUN apt-get update && \
 	nodejs \
     python2.7 \
 	wget \
+	git \
 	ca-certificates \
 	curl && \
 	apt-get clean && \
