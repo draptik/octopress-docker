@@ -8,7 +8,7 @@ docker run \
     -v ${PWD}/../share/octopress:/octopress \
     -v ${PWD}/post-install.sh:/home/user/post-install.sh \
     -v ${HOME}/.ssh:/home/user/.ssh \
-    draptik/octopress:0.3 \
+    draptik/octopress:0.2 \
     /bin/bash
 
 ## Run post-install.sh from within docker container
