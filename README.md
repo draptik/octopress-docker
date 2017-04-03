@@ -12,7 +12,8 @@ Clone octopress project to `share`:
 cd share
 git clone -b source <octopress-git-repo> octopress
 cd octopress
-git clone <octopress-git-repo> _deploy
+## MUST BE SSH!
+git clone git://<octopress-git-repo> _deploy
 ```
 
 ### From scratch
