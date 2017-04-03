@@ -14,6 +14,8 @@ cd octopress
 git clone <my-git-source> _deploy
 ```
 
+IMPORTANT: Change the git user name and email in the file `post-install.sh`! Otherwise you will not be able to deploy.
+
 # Usage
 
 Run `run-container.sh`. 
@@ -22,3 +24,4 @@ Depending on the usage of the `--rm` flag (which removes the container after exi
 
 The `post-install.sh` script installs some ruby gems and then installs the ruby bundle for the blog.
 Make sure the `post-install.sh` script has executable rights (`chmod 755 ~/post-install.sh`).
+
