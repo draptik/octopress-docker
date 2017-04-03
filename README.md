@@ -23,6 +23,8 @@ cd ../02* && ./build-image.sh && ./run-container.sh
 
 ### Normal usage
 
+IMPORTANT: Change the git user name/email in file `02_octopress/post-install.sh`. This info is required for deploying.
+
 Start the docker container:
 
 ```sh
