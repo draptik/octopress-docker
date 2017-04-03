@@ -2,6 +2,8 @@
 
 IMPORTANT: This setup currently only works for Linux hosts. Windows hosts using docker require additional tweaks for mounting shared volumes in docker.
 
+The docker image size is about 0.5GB.
+
 ## TL/DR;
 
 Clone octopress project to `share`:
