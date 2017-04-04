@@ -13,7 +13,7 @@ cd share
 git clone -b source <octopress-git-repo> octopress
 cd octopress
 ## MUST BE SSH!
-git clone git://<octopress-git-repo> _deploy
+git clone -b master git://<octopress-git-repo> _deploy
 ```
 
 ### From scratch

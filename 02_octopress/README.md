@@ -13,7 +13,7 @@ cd ../share
 git clone -b source <my-octopress-git-source> octopress
 cd octopress
 ## Must be SSH!
-git clone git://<my-octopress-git-source> _deploy
+git clone -b master git://<my-octopress-git-source> _deploy
 ```
 
 IMPORTANT: Change the git user name and email in the file `post-install.sh`! Otherwise you will not be able to deploy.
