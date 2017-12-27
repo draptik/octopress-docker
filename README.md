@@ -50,6 +50,8 @@ rake preview
 
 On the host (!): Opening a browser at `localhost:4001` should display the new test post.
 
+On the host (!): Use the `share` folder for editing content.
+
 If everything is fine: Deploy using
 
 ```sh
