@@ -1,4 +1,4 @@
-FROM draptik/ruby1.9.3-python2.7-nodejs:0.1
+FROM draptik/ruby1.9.3-python2.7-nodejs:0.2
 
 MAINTAINER Patrick Drechsler <socialcoding@pdrechsler.de>
 
