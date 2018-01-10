@@ -40,6 +40,7 @@ cd 02*
 Within docker container:
 
 ```sh
+alias la='ls -al'
 cd ~
 ./post-install.sh
 cd /octopress
