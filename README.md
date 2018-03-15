@@ -1,3 +1,25 @@
+# TL/DR
+
+Start the docker container:
+
+```sh
+cd 02*
+./run-container.sh
+```
+
+Within docker container:
+
+```sh
+alias la='ls -al'
+cd ~
+./post-install.sh
+cd /octopress
+rake new_post["test"]
+rake generate
+rake preview
+rake deploy
+```
+
 # Octopress in a docker container
 
 IMPORTANT: This setup currently only works for Linux hosts. Windows hosts using docker require additional tweaks for mounting shared volumes in docker.
