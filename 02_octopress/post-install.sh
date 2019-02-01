@@ -1,7 +1,8 @@
 #!/bin/bash
 gem install --no-ri --no-rdoc \
-	bundler \
-	execjs
+	bundler -v 1.16
+gem install --no-ri --no-rdoc \
+	execjs -v 2.7.0
 
 cd /octopress
 # Important: use `--path...`!
