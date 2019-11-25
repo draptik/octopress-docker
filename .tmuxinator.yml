@@ -1,0 +1,23 @@
+# ./.tmuxinator.yml
+
+name: blog
+root: .
+
+tmux_command: byobu
+
+windows:
+    - docker:
+        - cd 02*
+        - ./run-container.sh
+        - cd ~
+        - ./post-install.sh
+        - cd /octopress
+        - alias la='ls -al'
+        - echo "Hello in Docker!"
+    - local:
+        - cd share/octopress
+        - ls -al
+        - echo "new post              -> rake new_post"
+        - echo "editing previous post -> source/_posts"
+        - echo "update talks          -> source/talks/index.markdown"
+
